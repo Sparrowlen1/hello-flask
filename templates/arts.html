@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparrowlen Arts Gallery</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f4f8;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 48px;
+        }
+        p {
+            color: #34495e;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .art-piece {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+        .art-piece img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .art-piece:hover {
+            transform: scale(1.05);
+        }
+        .art-title {
+            color: #2980b9;
+            font-size: 22px;
+            margin: 15px 0 10px 0;
+        }
+        .art-description {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Sparrowlen Arts Gallery</h1>
+    <p>Explore a collection of stunning works of art curated just for you.</p>
+
+    <div class="gallery">
+        <div class="art-piece">
+            <img src="https://via.placeholder.com/300" alt="Art 1">
+            <h2 class="art-title">Abstract Landscape</h2>
+            <p class="art-description">A vibrant expression of nature’s beauty through abstract shapes and colors.</p>
+        </div>
+
+        <div class="art-piece">
+            <img src="https://via.placeholder.com/300" alt="Art 2">
+            <h2 class="art-title">Modern Portrait</h2>
+            <p class="art-description">A modern take on portraiture, blending tradition and innovation.</p>
+        </div>
+
+        <div class="art-piece">
+            <img src="https://via.placeholder.com/300" alt="Art 3">
+            <h2 class="art-title">Surreal Dream</h2>
+            <p class="art-description">An imaginative journey into a dreamlike world, beyond the realms of reality.</p>
+        </div>
+    </div>
+
+</body>
+</html>
